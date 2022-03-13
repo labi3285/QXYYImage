@@ -20,17 +20,17 @@ Pod::Spec.new do |s|
     core.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   end
   
-  s.subspec 'WebP' do |webp|
-    webp.dependency 'YYImage/Core'
-    webp.ios.vendored_frameworks = 'Vendor/WebP.framework'
-  end
+  #s.subspec 'WebP' do |webp|
+  #  webp.dependency 'QXYYImage/Core'
+  #  webp.ios.vendored_frameworks = 'Vendor/WebP.framework'
+  #end
 
-  s.subspec 'libwebp' do |libwebp|
-    libwebp.dependency 'YYImage/Core'
-    libwebp.dependency 'libwebp'
-    libwebp.xcconfig = { 
-      'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
-    }
-  end
+  #s.subspec 'libwebp' do |libwebp|
+  #  libwebp.dependency 'QXYYImage/Core'
+  #  libwebp.dependency 'libwebp'
+  #  libwebp.xcconfig = { 
+  #    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+  #  }
+  #end
   
 end

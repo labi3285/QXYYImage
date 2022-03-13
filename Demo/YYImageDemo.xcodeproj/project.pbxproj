@@ -18,7 +18,6 @@
 		D97F40961F0573DA00DFD481 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F408F1F0573DA00DFD481 /* YYImage.m */; };
 		D97F40971F0573DA00DFD481 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F40911F0573DA00DFD481 /* YYImageCoder.m */; };
 		D97F40981F0573DA00DFD481 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F40931F0573DA00DFD481 /* YYSpriteSheetImage.m */; };
-		D97F409A1F05740B00DFD481 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97F40991F05740B00DFD481 /* WebP.framework */; };
 		D97F409D1F05741000DFD481 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D97F409C1F05741000DFD481 /* libz.tbd */; };
 		D9D17EB91F05750000051419 /* cube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D17EAB1F05750000051419 /* cube@2x.png */; };
 		D9D17EBA1F05750000051419 /* EmoticonWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9D17EAC1F05750000051419 /* EmoticonWeibo.bundle */; };
@@ -64,7 +63,6 @@
 		D97F40911F0573DA00DFD481 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
 		D97F40921F0573DA00DFD481 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		D97F40931F0573DA00DFD481 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
-		D97F40991F05740B00DFD481 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = ../Vendor/WebP.framework; sourceTree = "<group>"; };
 		D97F409C1F05741000DFD481 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D9D17EAB1F05750000051419 /* cube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cube@2x.png"; sourceTree = "<group>"; };
 		D9D17EAC1F05750000051419 /* EmoticonWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonWeibo.bundle; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97F409D1F05741000DFD481 /* libz.tbd in Frameworks */,
-				D97F409A1F05740B00DFD481 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +186,6 @@
 		D97F409B1F05741000DFD481 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D97F40991F05740B00DFD481 /* WebP.framework */,
 				D97F409C1F05741000DFD481 /* libz.tbd */,
 			);
 			name = Frameworks;
