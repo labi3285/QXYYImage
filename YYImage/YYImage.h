@@ -11,18 +11,18 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYImage/YYImage.h>)
+#if __has_include(<QXYYImage/YYImage.h>)
 FOUNDATION_EXPORT double YYImageVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYImageVersionString[];
-#import <YYImage/YYFrameImage.h>
-#import <YYImage/YYSpriteSheetImage.h>
-#import <YYImage/YYImageCoder.h>
-#import <YYImage/YYAnimatedImageView.h>
-#elif __has_include(<YYWebImage/YYImage.h>)
-#import <YYWebImage/YYFrameImage.h>
-#import <YYWebImage/YYSpriteSheetImage.h>
-#import <YYWebImage/YYImageCoder.h>
-#import <YYWebImage/YYAnimatedImageView.h>
+#import <QXYYImage/YYFrameImage.h>
+#import <QXYYImage/YYSpriteSheetImage.h>
+#import <QXYYImage/YYImageCoder.h>
+#import <QXYYImage/YYAnimatedImageView.h>
+#elif __has_include(<QXWebImage/YYImage.h>)
+#import <QXWebImage/YYFrameImage.h>
+#import <QXWebImage/YYSpriteSheetImage.h>
+#import <QXWebImage/YYImageCoder.h>
+#import <QXWebImage/YYAnimatedImageView.h>
 #else
 #import "YYFrameImage.h"
 #import "YYSpriteSheetImage.h"
