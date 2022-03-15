@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'QXYYImage'
   s.summary      = 'a copy from YYImage.'
-  s.version      = '1.0.6'
+  s.version      = '1.0.7'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   #  }
   #end
   
-  # pod trunk push QXYYImage.podspec --allow-warnings
+  # pod trunk push QXYYImage.podspec --allow-warnings --verbose
 
 end
