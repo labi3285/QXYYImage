@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'QXYYImage'
   s.summary      = 'a copy from YYImage.'
-  s.version      = '1.0.7'
+  s.version      = '1.0.8'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
   s.homepage     = 'https://github.com/labi3285/QXYYImage'
-  s.platform     = :ios, '6.0'
-  s.ios.deployment_target = '6.0'
+  s.platform     = :ios, '9.0'
+  s.ios.deployment_target = '9.0'
   s.source       = { :git => 'https://github.com/labi3285/QXYYImage.git', :tag => s.version.to_s }
   
   s.requires_arc = true
